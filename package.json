@@ -8,5 +8,9 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/bencode": "^2.0.4",
+    "bencode": "^4.0.0"
   }
 }
