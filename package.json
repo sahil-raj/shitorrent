@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@types/bencode": "^2.0.4",
-    "bencode": "^4.0.0"
+    "@types/bignum": "^0.0.33",
+    "bencode": "^4.0.0",
+    "bignum": "^0.13.1"
   }
 }
