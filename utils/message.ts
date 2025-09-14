@@ -110,7 +110,7 @@ export const buildPiece = (payload: any) => {
   return buf;
 };
 
-module.exports.buildCancel = (payload: any) => {
+export const buildCancel = (payload: any) => {
   const buf = Buffer.alloc(17);
   // length
   buf.writeUInt32BE(13, 0);
@@ -125,7 +125,7 @@ module.exports.buildCancel = (payload: any) => {
   return buf;
 };
 
-module.exports.buildPort = (payload: any) => {
+export const buildPort = (payload: any) => {
   const buf = Buffer.alloc(7);
   // length
   buf.writeUInt32BE(3, 0);
